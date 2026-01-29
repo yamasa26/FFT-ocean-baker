@@ -1,0 +1,10 @@
+^C:\USERS\TMC13\DOCUMENTS\CPP_PROJECTS\FFT_OCEAN\FFT_OCEAN_BAKER\BUILD\CMAKEFILES\3454D763D0C997E370FA17C55A4D1EA5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/tmc13/Documents/CPP_Projects/FFT_ocean/FFT_ocean_baker -BC:/Users/tmc13/Documents/CPP_Projects/FFT_ocean/FFT_ocean_baker/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tmc13/Documents/CPP_Projects/FFT_ocean/FFT_ocean_baker/build/FFTOceanBaker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
